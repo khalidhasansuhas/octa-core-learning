@@ -17,12 +17,15 @@
     <header>
         <!-- navigation bar -->
        <section>
-        <nav class="navbar navbar-expand-lg bg-white justify-content-between">
+        <nav class="navbar navbar-expand-lg bg-white justify-content-between fixed-top">
             <div class="container">
               <a class="navbar-brand text-success fw-bold" href="#">Octa Core Learning</a>
               <nav class=" d-flex d-none d-md-block d-lg-none bg-light">
                 <form class="container  justify-content-end">
-                    <button class="btn btn-outline-primary " type="button">Registar</button>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
                 </form>
             </nav>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,22 +37,25 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link" href="#courses">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Deals</a>
+                    <a class="nav-link" href="#deals">Deals</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Success</a>
+                    <a class="nav-link" href="#success">Success</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Registar</a>
+                    <a class="nav-link" href="#register">Registar</a>
                   </li>
                 </ul>
               </div>
               <nav class=" d-none d-lg-block bg-light">
                 <form class="container justify-content-end">
-                    <button class="btn btn-outline-primary " type="button">Registar</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
                 </form>
             </nav>
             </div>
@@ -66,25 +72,25 @@
             <div class=" container carousel-inner ">
               <div class="carousel-item active " data-bs-interval="10000">
                 <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption ">
-                  <h5 class="display-6">Get Started with Octa Core Learning</h5>
-                  <p>may be you are not a rock star with your passion and dedication you will be a rockstar soon. Octa Core just shows the path</p>
+                <div class="carousel-caption">
+                  <h5 class="display-5">Get Started with Octa Core Learning</h5>
+                  <p class="text-truncate">may be you are not a rock star with your passion and dedication you will be a rockstar soon. Octa Core just shows the path</p>
                   <button type="button" class="btn btn-primary ">Get Started</button>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="10000">
                 <img src="./images/cover/cover-2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption ">
-                  <h5 class="display-6">Get Started with Octa Core Learning</h5>
-                  <p>may be you are not a rock star with your passion and dedication you will be a rockstar soon. Octa Core just shows the path</p>
+                  <h5 class="display-6 ">Get Started with Octa Core Learning</h5>
+                  <p class="text-truncate">may be you are not a rock star with your passion and dedication you will be a rockstar soon. Octa Core just shows the path</p>
                   <button type="button" class="btn btn-primary ">Get Started</button>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="10000">
                 <img src="./images/cover/cover-3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption ">
+                <div class="carousel-caption">
                   <h5 class="display-6">Get Started with Octa Core Learning</h5>
-                  <p>may be you are not a rock star with your passion and dedication you will be a rockstar soon. Octa Core just shows the path</p>
+                  <p class="text-truncate">may be you are not a rock star with your passion and dedication you will be a rockstar soon. Octa Core just shows the path</p>
                   <button type="button" class="btn btn-primary ">Get Started</button>
                 </div>
               </div>
@@ -102,14 +108,14 @@
     </header>
     <main>
         <!-- course heading section  -->
-        <section class="container d-flex align-items-center">
+        <section class="container d-flex align-items-center" id="courses">
             <div class=" w-50 text-center m-auto py-5">
                 <h1>Discover Octa Core Courses</h1>
                 <p>Octacore is providing eight digital Courses with a lucrative course rate for each </p>
             </div>
         </section>
         <!-- course card section -->
-        <section class="container pb-5">
+        <section class="container pb-5" >
            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-0 p-3">
             <div class="card mb-3 " >
                 <div class="row g-0">
@@ -119,7 +125,7 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Fundamental Of UI/UX Design.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -128,12 +134,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-2.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Javascript Basic to advanced</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Javascript Basic to advanced.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -142,12 +148,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-3.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Fullstack Web Development</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Fullstack Web Development.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -156,12 +162,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-4.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Digital Marketing</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Digital Marketing.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -170,12 +176,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-5.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Photography Basic Rules</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Photography Basic Rules.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -184,12 +190,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-6.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Motion Graphics</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Motion Graphics.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -198,12 +204,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-2.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Python Basic to Advance</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Python Basic to Advance.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -212,12 +218,12 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="./images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./images/course/course-3.png" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title">Ethical Hacking</h5>
+                      <p class="card-text">in this course you will be learning from begginer level to advanced level of Ethical Hacking.</p>
                       <p class="card-text"><small class="text-primary">Price:20$</small></p>
                     </div>
                   </div>
@@ -229,7 +235,7 @@
            </div>
         </section>
         <!-- elearning institue -->
-        <section class="container my-5">
+        <section class="container my-5" id="deals">
            
               <div class="d-flex align-items-center ">
                 <div class="card mb-3" style="max-width:100%;">
@@ -238,29 +244,29 @@
                         <img src="./images/working.png" class="img-fluid rounded-start" alt="...">
                       </div>
                       <div class="col-md-6  bg-style">
-                        <div class="card-body ">
-                            <div class="p-3">
+                        <div class="card-body">
+                            <div class="p-3 h-100 ">
                     
                                 <h1>Explorer The E-learning Institute</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptatum facilis fugit commodi quod quos incidunt, officia repudiandae, hic magni voluptates nesciunt laudantium a illo consectetur consequuntur exercitationem obcaecati distinctio.</p>
+                                <p>The eLearning Institute is a virtual destination for professionals in various arenas of higher education to meet ongoing professional development needs and to gain access to the most current research in academe.</p>
                               
                               <div class="d-flex gap-3 ">
                                 <div>
-                                    <h1>3.2K+</h1>
+                                    <h5>3.2K+</h5>
                                     <p class="text-muted">Online Courses</p>
                                 </div>
                                 <div>
-                                    <h1>600+</h1>
-                                    <p class="text-muted">Expert member</p>
+                                    <h5>600+</h5>
+                                    <p class="text-muted">Expert Member</p>
                                 </div>
                                 <div>
-                                    <h1>1K+</h1>
-                                    <p class="text-muted">rating & review</p>
+                                    <h5>1K+</h5>
+                                    <p class="text-muted">Rating & Review</p>
                                 </div>
                                 
                               </div>
                               <div class="w-100 d-flex text-center pt-3">
-                                <button type="button" class="btn btn-primary mx-auto">See More Courses</button>
+                                <button type="button" class="btn btn-primary mx-auto">Read More</button>
                                </div>
                             </div>
                       </div>
@@ -270,14 +276,46 @@
            
         </section>
                 <!-- Register section  -->
-        <section class="container bg-primary rounded ">
+        <section class="container bg-primary rounded " id="register">
                     <div class="register">
                         <div class="reg-div text-white">
                             <H1>Ready to join?</H1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi soluta tempore, eaque dolorem quisquam recusandae voluptatum nam sit magnam facere quam minima quae delectus a. Provident eius pariatur quasi vel.</p>
+                            <p>This is where you'll find all you need to know about eligibility, preparing for the courses and getting ready for your journey in OCL..</p>
                         </div>
                         <div class="">
-                            <button class="btn btn-white text-primary bg-white ">Registar Now</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Register Now
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Register Here</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                     <form action="">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                          </div>
+                                     </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
         </section>
@@ -285,11 +323,11 @@
         <section class="container d-flex align-items-center">
             <div class=" w-50 text-center m-auto py-5">
                 <h1>Meet Our Successful Students</h1>
-                <p>Octacore is providing eight digital Courses with a lucrative course rate for each </p>
+                <p> with the help of Octacore some successfull students made their career in their suitable area </p>
             </div>
         </section>
         <!-- successfull students Card -->
-        <section class="container ">
+        <section class="container " id="success">
             <div class="row  row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
                 <div class="col">
                   <div class="card h-auto">
@@ -338,11 +376,187 @@
                     <p>Octacore is providing eight digital Courses with a lucrative course rate for each </p>
                 </div>
         </section>    
+        <!-- students Feedback -->
+        <section>
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                       <div class="feedback">
+                            <div class="feedback-content">
+                                <div class="d-flex justify-content-between px-3 py-3">
+                                    <img src="./images/comma.png" alt="">
+                                    <span class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="">
+                                    <p class="px-3">I have learned a lot from this course. OCL team is very supportive and guided me through right path</p>
+                                    <div class="d-flex ps-3">
+                                        <div>
+                                            <img src="./images/student/student-5.png" alt="">
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5>awlad Hossain</h5>
+                                            <p class="text-muted">UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-content">
+                                <div class="d-flex justify-content-between px-3 py-3">
+                                    <img src="./images/comma.png" alt="">
+                                    <span class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="">
+                                    <p class="px-3">I will be always thankful to OCL team for their support and guidance throughout this journey.</p>
+                                    <div class="d-flex ps-3">
+                                        <div>
+                                            <img src="./images/student/student-6.png" alt="">
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5>Nishat Nabila</h5>
+                                            <p class="text-muted">UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="carousel-item">
+                       <div class="feedback">
+                            <div class="feedback-content">
+                                <div class="d-flex justify-content-between px-3 py-3">
+                                    <img src="./images/comma.png" alt="">
+                                    <span class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="">
+                                    <p class="px-3">I have learned a lot from this course. OCL team is very supportive and guided me through right path</p>
+                                    <div class="d-flex ps-3">
+                                        <div>
+                                            <img src="./images/student/student-6.png" alt="">
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5>Tanha sweety</h5>
+                                            <p class="text-muted">UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-content">
+                                <div class="d-flex justify-content-between px-3 py-3">
+                                    <img src="./images/comma.png" alt="">
+                                    <span class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="">
+                                    <p class="px-3">I have learned a lot from this course. OCL team is very supportive and guided me through right path</p>
+                                    <div class="d-flex ps-3">
+                                        <div>
+                                            <img src="./images/student/student-5.png" alt="">
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5>sabbir Hossain</h5>
+                                            <p class="text-muted">UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="carousel-item">
+                       <div class="feedback">
+                            <div class="feedback-content">
+                                <div class="d-flex justify-content-between px-3 py-3">
+                                    <img src="./images/comma.png" alt="">
+                                    <span class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="">
+                                    <p class="px-3">I have learned a lot from this course. OCL team is very supportive and guided me through right path</p>
+                                    <div class="d-flex ps-3">
+                                        <div>
+                                            <img src="./images/student/student-6.png" alt="">
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5>Mehzabin Khan</h5>
+                                            <p class="text-muted">Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-content">
+                                <div class="d-flex justify-content-between px-3 py-3">
+                                    <img src="./images/comma.png" alt="">
+                                    <span class="text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="">
+                                    <p class="px-3">I have learned a lot from this course. OCL team is very supportive and guided me through right path</p>
+                                    <div class="d-flex ps-3">
+                                        <div>
+                                            <img src="./images/student/student-5.png" alt="">
+                                        </div>
+                                        <div class="ps-3">
+                                            <h5>Nasir Uddin Hossain</h5>
+                                            <p class="text-muted">UI/UX Designer</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                         </div>
+                      </div>
+                      
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="w-100 d-flex text-center pt-3">
+                <button type="button" class="btn btn-primary mx-auto">View All</button>
+               </div>
+        </section>
         <!-- FAQ Heading-->
         <section class="container d-flex align-items-center">
             <div class=" w-50 text-center m-auto py-5">
                 <h1>Frequently asked Question</h1>
-                <p>Octacore is providing eight digital Courses with a lucrative course rate for each </p>
+                <p>Here are some frequently asked questions answered by Octa-core Team </p>
             </div>
         </section> 
         <!-- FAQ -->
@@ -426,10 +640,11 @@
             </div>
         </section>
     </main>
+    <!-- footer added -->
     <footer class="text-center text-white bg-dark py-5">
         <h3 class="text-success fw-bold">Octa Core Learning</h3>
         <small>
-            <p>
+            <p class="text-muted">
                 Office 41, Zawaya Buildin, Ghala Muscat, <br>
            
                  Sultanate of Oman <br>

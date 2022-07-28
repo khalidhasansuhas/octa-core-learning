@@ -20,6 +20,19 @@
 .reg-div{
     width: 80%;
 }
+.feedback{
+    display: flex;
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+.feedback-content{
+    display: block;
+    width: 50%;
+    border: 1px solid grey;
+    background-color: azure;
+}
 
 @media only screen and (max-width:992px) {
 .register{
@@ -28,4 +41,19 @@
     .reg-div{
         width: 100%;
     }
+    .feedback{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 10px;
+        column-gap: 10px;
+      
+    }
+    .feedback-content{
+        display: block;
+        width: 100%;
+        border: 1px solid grey;
+        background-color: azure;
+    }
+    
 }
