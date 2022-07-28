@@ -1,3 +1,4 @@
+ /*---------------- vanilla CSS styles-------------------- */
 .bg-style{
     background-color: rgb(197, 243, 228);
 }
@@ -33,7 +34,7 @@
     border: 1px solid grey;
     background-color: azure;
 }
-
+/*--------------------------- media queries added------------------- */
 @media only screen and (max-width:992px) {
 .register{
     flex-direction: column;
@@ -57,3 +58,5 @@
     }
     
 }
+
+/*----------------------------------------------- the end ------------------------------------------------------ */
